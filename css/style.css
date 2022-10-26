@@ -40,6 +40,10 @@ p {
     color: #44d62c;
 }
 
+.stroke {
+    -webkit-text-stroke: 1px black;
+}
+
 .bg-dark {
     background: #444;
     color: #fff;
@@ -60,7 +64,7 @@ p {
 
 .l-heading {
     font-size: 40px;
-    padding-top: 20px;
+    padding: 30px 0;
 }
 
 /* navbar */
@@ -184,40 +188,32 @@ p {
     padding-bottom: 30px;
 }
 
-/* about-info */
-#about-info .info-left {
-    float: left;
-    width: 50%;
-    height: 100%;
+/* Turing */
 
-}
-
-#about-info .info-right {
+#turing .turing-image{
     float: right;
-    width: 50%;
-    height: 100%;
+    clear: both;
+    width: 45%;
 }
 
-#about-info .info-right img {
+#turing .turing-image img {
     display: block;
     width: 80%;
     margin: 20px auto;
     border-radius: 50%;
 }
 
-/* reflection */
-#reflection .reflection-content h1 {
-    font-size: 30px;
-    padding-top: 20px;
+#turing .turing-image p {
+   font-size: 30px;
 }
 
-#reflection .reflection-content p {
-    padding-bottom: 30px;
-}
+/* #turing .turing-image p {
+    float: right;
+} */
 
 /*testimonals*/
 #testimonials {
-    height: 600px;
+    height: 700px;
     background: url('../img/showcase-blackAudioMixer.jpg') no-repeat center center/cover;
     padding-top: 100px;
 }
@@ -236,11 +232,19 @@ p {
 }
 
 #testimonials .testimonial img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 80px;
     float: left;
     margin-right: 20px;
+}
+
+/* reflection */
+#reflection .reflection-content h1 {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+#reflection .reflection-content p {
+    padding-bottom: 30px;
 }
 
 /* footer */
