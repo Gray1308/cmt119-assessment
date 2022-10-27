@@ -28,6 +28,10 @@ p {
     margin: 10px 0;
 }
 
+b {
+    text-decoration: underline;
+}
+
 /* utility classes */
 .container {
     margin: 0 auto;
@@ -190,7 +194,7 @@ p {
 
 /* Turing */
 
-#turing .turing-image{
+#turing .turing-image {
     float: right;
     clear: both;
     width: 45%;
@@ -204,7 +208,7 @@ p {
 }
 
 #turing .turing-image p {
-   font-size: 30px;
+    font-size: 30px;
 }
 
 /* #turing .turing-image p {
